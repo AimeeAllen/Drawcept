@@ -18,3 +18,7 @@
 
 .ruby-*
 /config.database.yml
+
+# Ignore project files.
+*.sublime-project
+*.sublime-workspace
