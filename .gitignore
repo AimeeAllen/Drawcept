@@ -17,12 +17,9 @@
 /tmp
 
 .ruby-*
-<<<<<<< HEAD
-/config.database.yml
+/config/database.yml
 
 # Ignore project files.
 *.sublime-project
 *.sublime-workspace
-=======
-/config/database.yml
->>>>>>> b3dd933d2c6d58974fae26c4ca168de4fa77b8cd
+
