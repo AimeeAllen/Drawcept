@@ -1,3 +1,8 @@
-Hi welcome to Drawcept
+<h1>Drawcept</h1>
 
-Please enter your name:
+<h3>Please enter your name:</h3>
+
+<%= form_for @user, url: home_login_path do |f| %>
+  <%= f.text_field :username %>
+  <%= f.submit class: 'btn btn-primary' %>
+<% end %>
